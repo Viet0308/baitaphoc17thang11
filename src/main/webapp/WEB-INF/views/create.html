@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>CreateSp</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<div align="center">
+    <form method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td>Nhập id</td>
+                <td><input name="id" placeholder="Nhập id"></td>
+            </tr>
+            <tr>
+                <td>Nhập tên</td>
+                <td><input name="name" placeholder="Nhập tên"></td>
+            </tr>
+            <tr>
+                <td>Nhập đường dẫn ảnh</td>
+                <td><input name="uppImg" type="file"   ></td>
+            </tr>
+            <tr>
+                <td>Nhập Giá</td>
+                <td><input name="price" placeholder="Nhập price"></td>
+            </tr>
+
+        </table>
+        <button type="submit"  class="btn btn-success">Submit</button>
+    </form>
+</div>
+</body>
+</html>
